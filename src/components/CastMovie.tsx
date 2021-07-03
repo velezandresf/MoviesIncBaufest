@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
         
     },
     actorInfo: {
-
-        marginTop: 4
+        marginTop: 4,
+        marginBottom: 4
     }
 })
