@@ -11,7 +11,7 @@ export const FavoriteProvider = ({ children }: any) => {
     const [favoriteState, dispatch] = useReducer(favoriteReducer, FavoriteInitialState)
 
     const addFavorite = (movieId: number, title:string, movieImageURI: string) => {
-        console.log('adding favorite');
+ 
         dispatch({ 
             type: 'add', 
             payload: {movieId, title, movieImageURI} 

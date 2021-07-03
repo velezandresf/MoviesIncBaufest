@@ -9,8 +9,6 @@ export const FavoriteScreen = () => {
 
     const { top } = useSafeAreaInsets();
     const { favoriteState } = useContext( FavoriteContext );
-    
-    // console.log(favoriteState);
 
     return (
         <View style={{ marginTop: top, flex:1 }}>
