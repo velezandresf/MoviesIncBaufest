@@ -12,11 +12,11 @@ export const useMoviesByIdMovie = (movieId: number, routeName: string) => {
 
     const getMoviesDetails = () => {
 
-        movieDBGet.get<MovieDBResponse>(`/${508943}/${routeName}`)
+        movieDBGet.get<MovieDBResponse>(`/${movieId}/${routeName}`)
             .then((response) => {
                 setMoviesState(response.data.results);
             }, (error) => {
-                console.log(`/${508943}/${routeName}`)
+                console.log(`/${movieId}/${routeName}`)
                 console.log(error.response.data.status_message)       
             });
 
