@@ -1,6 +1,6 @@
 # Movies Inc Baufest
 
-Movies Inc is an app that allows you to discover movies that are currently on the billboard. See the detail, actors and characters, rate the movie and see similar or recommended movies. Also, You have the option to indicate which movies you like and see them later in a list.
+Movies Inc is an app that allows you to discover movies that are currently on the billboard. See the detail, actors and characters, rate the movie and see similar or recommended movies. Also, You have the option to indicate which movies you like and watch them later on the favorite screen.
 
 ## Screenshots
 <img src="/docs/screenshots/home.png" alt="Home Screen with Now Playing movies" height="300"/>
